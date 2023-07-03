@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "number_of_rows": 20,
+  "properties": {
+    "first_name": { "type": "FIRST_NAME" },
+    "last_name": { "type": "LAST_NAME" },
+    "birth_year": { "type": "YEAR" }
+  }
+}

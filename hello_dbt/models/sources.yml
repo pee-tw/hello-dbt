@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: people
+    schema: dev
+    tables:
+      - name: people
+        identifier: people

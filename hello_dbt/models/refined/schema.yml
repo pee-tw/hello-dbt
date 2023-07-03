@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: rfn_people
+    description: Refined people that has both first name and last name
+    columns:
+      - name: full_name
+        tests:
+          - not_null
+
+      - name: birth_year
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 1900 
+              max_value: 2023

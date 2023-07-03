@@ -1,0 +1,1 @@
+SELECT * FROM {{ test_equality(ref('rfn_people'), ref('expected_people')) }}
